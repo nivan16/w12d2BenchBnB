@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './frontend/entry.jsx',
+  entry: './frontend/bench_bnb.jsx',
   output: {
     path: path.resolve(__dirname, 'app', 'assets', 'javascripts'),
     filename: 'application.js'
@@ -22,4 +22,4 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx', '*'],
   }
-};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
+};
